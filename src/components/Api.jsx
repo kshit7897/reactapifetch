@@ -18,7 +18,7 @@ export function Api() {
   useEffect(() => {
     const afterFilterData = posts.filter((post) => {
       if (post.name) {
-        return post.name.includes(search);
+        return post.name.includes(search.toLowerCase());
       }
     });
     setFilteredData(afterFilterData);

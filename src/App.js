@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
 import "./App.css";
+import { Api } from "./components/Api";
 
 function App() {
   return (
     <div className="App">
-      <api />
+      <Api />
     </div>
   );
 }
